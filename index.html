@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Overlay Text</title>
+    <style>
+        .image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?cs=srgb&dl=daylight-forest-glossy-443446.jpg&fm=jpg" alt="Your Image">
+        <div class="overlay-text">hello</div>
+    </div>
+</body>
+</html>
